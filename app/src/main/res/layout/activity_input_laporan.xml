@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center|top"
+    android:orientation="vertical"
+    tools:context=".TeknisiActivity.InputLaporan">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center|top"
+        android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Laporan Hasil Kerja"
+        android:textSize="40sp"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="40dp"
+                android:text="Teknisi:"
+                android:textSize="16sp"/>
+
+            <EditText
+                android:id="@+id/nama_teknisi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="40dp"
+            android:text="Nama Customer:"
+            android:textSize="16sp"/>
+
+        <EditText
+            android:id="@+id/nama_customer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="40dp"
+            android:text="Alamat Customer:  "
+            android:textSize="16sp"/>
+
+        <EditText
+            android:id="@+id/alamat_cus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="40dp"
+            android:text="No.Telp Customer:"
+            android:textSize="16sp"/>
+
+        <EditText
+            android:id="@+id/telp_cus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="40dp"
+            android:text="Jenis Pekerjaan: "
+            android:textSize="16sp"/>
+
+        <EditText
+            android:id="@+id/jenis_job"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="40dp"
+            android:text="Jumlah PC: "
+            android:textSize="16sp"/>
+
+        <EditText
+            android:id="@+id/jumlah_pc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="50dp"
+            android:text="Tanggal Dikerjakan: "
+            android:textSize="16sp"/>
+
+        <EditText
+            android:id="@+id/tgl_kerja"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="40dp"
+            android:text="Total Biaya: "
+            android:textSize="16sp"/>
+
+        <EditText
+            android:id="@+id/total_fee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"
+        android:text="Input Laporan"
+        android:textSize="25sp"
+        android:layout_marginTop="25dp"/>
+
+    </LinearLayout>
+
+
+</ScrollView>

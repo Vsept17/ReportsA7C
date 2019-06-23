@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">ReportsA7C</string>
+
+    <string-array name="usertype">
+        <item>Teknisi</item>
+        <item>Admin</item>
+    </string-array>
+
+    <string name="action_sign_in_short">Register</string>
+    <string name="email">Email</string>
+    <string name="minimum_password">Password terlalu pendek, minimal 6 karakter!</string>
+    <string name="auth_failed">Autentikasi gagal, periksa email dan password anda atau mendaftar</string>
+    <string name="change_email">Change Email</string>
+    <string name="change_password">Ganti Password</string>
+    <string name="send_password_reset_email">Send Password reset email</string>
+    <string name="remove_user">Remove user</string>
+    <string name="new_pass">New Password</string>
+    <string name="title_activity_profile">Firebase</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_passwordadm">Password Login Admin</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">MASUK</string>
+    <string name="prompt_password">Harap masukkan password anda </string>
+    <string name="btn_link_to_register">Belum punya akun? Klik disini</string>
+    <string name="btn_link_to_login">Sudah Terdaftar. Klik disini untuk Login!</string>
+    <string name="title_activity_reset_password">ResetPasswordActivity</string>
+    <string name="btn_forgot_password">Lupa password? Klik disini</string>
+    <string name="btn_reset_password">Reset Password</string>
+    <string name="btn_back"><![CDATA[<< KEMBALI]]></string>
+    <string name="hint_new_email">New Email</string>
+    <string name="btn_change">Change</string>
+    <string name="btn_send">Send</string>
+    <string name="btn_remove">Remove</string>
+    <string name="btn_sign_out">Sign Out</string>
+    <string name="lbl_forgot_password">Lupa password?</string>
+    <string name="forgot_password_msg">Harap Masukkan Email anda untuk mengirimkan instruksi mereset password anda.</string>
+    <string name="email_id">Email ID</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_main__admin">Main_Activity_admin</string>
+
+</resources>
